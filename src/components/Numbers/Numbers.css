@@ -1,0 +1,34 @@
+.numbers_mainBackground {
+  background-color: lightblue;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+}
+.numbersContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 70%;
+  gap: 20px;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 30px;
+}
+.numberDisplay {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 45px;
+}
